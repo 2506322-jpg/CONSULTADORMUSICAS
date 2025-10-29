@@ -59,5 +59,5 @@ npx ts-node index.ts
 
 ## 👥 Autores
 
-- **Davi Gonçalves Silva** (RA 2505783)
-- **Gustavo Zaia Pastro** (RA 2506964)
+- **Erick De Sousa Cardoso** (RA 2512307)
+- **João Pedro Gomes Ribeiro** (RA 2506322)
