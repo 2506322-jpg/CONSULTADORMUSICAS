@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    /* ----- Configuração do Módulo e Ambiente ----- */
+    "module": "nodenext",
+    "target": "esnext",
+    "lib": ["esnext"],
+    "types": ["node"], // Corrigido de [node] para ["node"]
+    "esModuleInterop": true, // Importante para compatibilidade de módulos
+    "moduleDetection": "force",
+
+    /* ----- Configurações de Qualidade de Código ----- */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    /* ----- Configurações do Projeto ----- */
+    "outDir": "./dist", // Onde os arquivos JS compilados irão
+    "rootDir": "./", // Onde seus arquivos TS estão
+    "sourceMap": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "*.ts"
+  ], // Diz ao TS para incluir todos os arquivos .ts na raiz
+  "exclude": [
+    "node_modules"
+  ]
+}
